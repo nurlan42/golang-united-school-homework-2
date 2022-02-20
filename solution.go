@@ -22,7 +22,7 @@ const (
 // CalcSquare computes area
 func CalcSquare(sideLen float64, sidesNum sidesNum) float64 {
 	sqrSideLen := sideLen * sideLen
-	
+
 	switch sidesNum {
 	case SidesSquare:
 		return sqrSideLen
